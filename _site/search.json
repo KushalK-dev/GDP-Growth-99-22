@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": ".",
+    "title": "GDP Growth from 2000-2022",
     "section": "",
     "text": "[1] \"This project takes us into the dynamic concepts of economics, to chart the course of global GDP growth rates from the years 1999 to 2022. Because of RStudio, it is possible to  transform raw data into a narrative that reflects past economic trends, as well as help in forecasting future possibilities. The graph below is a visualizations which brings clarity to complex economic concepts, making them accessible to anyone. \""
   },
@@ -11,6 +11,6 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "My name is Kushal Kanuparthi, and I have always been amazed by the possibilities of computers, whether it’s through 3D Design, robotics, or even, coding.\nMy GitHub Profile: https://github.com/KushalK-dev\nMy email: kushal.kanuparthi@gmail.com\nThis project is about the change in GDP of major countries from the years 2000 to 2022, which is graphed onto a line plot.\nThis project was created as a part of Kane’s Data Science Bootcamp.\nhttps://bootcamp.davidkane.info/."
   }
 ]
