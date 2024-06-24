@@ -11,6 +11,10 @@ execute:
 library(tidyverse)
 ```
 
+```{r}
+print("This project takes us into the dynamic concepts of economics, to chart the course of global GDP growth rates from the years 1999 to 2022. Because of RStudio, it is possible to  transform raw data into a narrative that reflects past economic trends, as well as help in forecasting future possibilities. The graph below is a visualizations which brings clarity to complex economic concepts, making them accessible to anyone. ")
+```
+
 
 
 ```{r}
