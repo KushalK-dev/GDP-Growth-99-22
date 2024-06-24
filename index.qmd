@@ -1,0 +1,42 @@
+---
+execute: 
+  echo: false
+  message: false
+  label: setup
+  warning: false
+---
+
+
+```{r}
+library(tidyverse)
+```
+
+
+
+```{r}
+gdp_data <- read_csv("GDP.csv")
+selected_countries <- gdp_data %>%
+                     filter(Country %in% c("United States", "China", "India", "Germany", "Indonesia",
+                                           "Egypt", "Japan", "France", "United Kingdom", "Canada"))
+
+
+long_gdp_data <- gather(selected_countries, key = "Year", value = "GDP", -Country)
+long_gdp_data$Year <- as.numeric(as.character(long_gdp_data$Year))
+
+ggplot(long_gdp_data, aes(x = Year, y = GDP, group = Country, color = Country)) +
+    geom_line(linewidth = 1) +
+    theme_minimal() +
+  theme(plot.title = element_text(size = 20, face = "bold"),
+        plot.subtitle = element_text(size = 15),
+        axis.title.x = element_text(size = 15),
+        axis.title.y = element_text(size = 15),
+        legend.title = element_text(size = 15, face = "bold"),
+        legend.text = element_text(size = 12)) +
+    labs(title = "GDP Growth of Core Countries from 1999-2022",
+         subtitle = "The United States and China have the highest change in GDP",
+         x = "Year",
+         y = "GDP", 
+         caption = "")
+```
+
+
