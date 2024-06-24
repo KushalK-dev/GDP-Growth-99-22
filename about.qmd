@@ -2,4 +2,14 @@
 title: "About"
 ---
 
-About this site
+My name is Kushal Kanuparthi, and I have always been amazed by the possibilities of computers, whether it's through 3D Design, robotics, or even, coding.
+
+My GitHub Profile: https://github.com/KushalK-dev 
+
+My email: kushal.kanuparthi@gmail.com 
+
+This project is about the change in GDP of major countries from the years 2000 to 2022, which is graphed onto a line plot.
+
+This project was created as a part of Kane’s Data Science Bootcamp.
+
+https://bootcamp.davidkane.info/. 
