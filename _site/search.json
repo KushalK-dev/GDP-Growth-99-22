@@ -4,7 +4,14 @@
     "href": "index.html",
     "title": "GDP Growth from 2000-2022",
     "section": "",
-    "text": "This project is about the dynamic concepts of economics, to chart the course of global GDP growth rates from the years 1999 to 2022. Because of RStudio, it is possible to transform raw data into a narrative that reflects past economic trends, as well as help in forecasting future possibilities. The graph below is a visualizations which brings clarity to economics that may seem complex, making them accessible to anyone. The countries with the highest change in GDP over the last 20 years are China and the United States."
+    "text": "This project is about the dynamic concepts of economics, to chart the course of global GDP growth rates from the years 1999 to 2022. Because of RStudio, it is possible to transform raw data into a narrative that reflects past economic trends, as well as help in forecasting future possibilities. The graph below is a visualizations which brings clarity to economics that may seem complex, making them accessible to anyone. The countries with the highest change in GDP over 23 years are China and the United States."
+  },
+  {
+    "objectID": "index.html#project-overview",
+    "href": "index.html#project-overview",
+    "title": "GDP Growth from 2000-2022",
+    "section": "",
+    "text": "This project is about the dynamic concepts of economics, to chart the course of global GDP growth rates from the years 1999 to 2022. Because of RStudio, it is possible to transform raw data into a narrative that reflects past economic trends, as well as help in forecasting future possibilities. The graph below is a visualizations which brings clarity to economics that may seem complex, making them accessible to anyone. The countries with the highest change in GDP over 23 years are China and the United States."
   },
   {
     "objectID": "about.html",
@@ -12,12 +19,5 @@
     "title": "About",
     "section": "",
     "text": "My name is Kushal Kanuparthi, and I have always been amazed by the possibilities of computers, whether it’s through 3D Design, robotics, or even, coding.\nMy GitHub Profile: https://github.com/KushalK-dev\nMy email: kushal.kanuparthi@gmail.com\nThis project is about the change in GDP of major countries from the years 2000 to 2022, which is graphed onto a line plot.\nThis project was created as a part of Kane’s Data Science Bootcamp."
-  },
-  {
-    "objectID": "index.html#project-overview",
-    "href": "index.html#project-overview",
-    "title": "GDP Growth from 2000-2022",
-    "section": "",
-    "text": "This project is about the dynamic concepts of economics, to chart the course of global GDP growth rates from the years 1999 to 2022. Because of RStudio, it is possible to transform raw data into a narrative that reflects past economic trends, as well as help in forecasting future possibilities. The graph below is a visualizations which brings clarity to economics that may seem complex, making them accessible to anyone. The countries with the highest change in GDP over the last 20 years are China and the United States."
   }
 ]
