@@ -35,17 +35,17 @@
     "text": "Chloropleth\nOur final graphic is a chloropleth. A chloropleth is a thematic map that displays data on a map. In the examples below, we can see a different color represents a different range of GDP values. Here, we can view all the countries, instead of just a few. The only disadvantage however, is that, similar to the bar graphs, we can only see the data for one specific year, and not all the years.\n\n\n\n\n\n\n\n\n\nHere we see can see another Chloropleth map, but of the year 2022."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "My name is Kushal Kanuparthi, and I have always been amazed by the possibilities of computers, whether it’s through 3D Design, robotics, or even, coding.\nMy GitHub Profile: https://github.com/KushalK-dev\nMy email: kushal.kanuparthi@gmail.com\nThis project is about the change in GDP of major countries from the years 2000 to 2022, which is graphed onto a line plot.\nThis project was created as a part of Kane’s Data Science Bootcamp."
-  },
-  {
     "objectID": "index.html#summary",
     "href": "index.html#summary",
     "title": "GDP Growth from 2000-2022",
     "section": "Summary",
     "text": "Summary\nEach of the graphics above have many advantages and disadvantages. There are different uses for each one, because they all display data in a different format than other kinds of plots."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "My name is Kushal Kanuparthi, and I have always been amazed by the possibilities of computers, whether it’s through 3D Design, robotics, or even, coding.\nMy GitHub Profile: https://github.com/KushalK-dev\nMy email: kushal.kanuparthi@gmail.com\nThis project is about the change in GDP of major countries from the years 2000 to 2022, which is graphed onto a line plot.\nThis project was created as a part of Kane’s Data Science Bootcamp."
   }
 ]
