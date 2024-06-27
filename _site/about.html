@@ -135,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
 <p>My name is Kushal Kanuparthi, and I have always been amazed by the possibilities of computers, whether it’s through 3D Design, robotics, or even, coding.</p>
 <p>My GitHub Profile: <a href="https://github.com/KushalK-dev">https://github.com/KushalK-dev</a></p>
 <p>My email: <a href="kushal.kanuparthi@gmail.com">kushal.kanuparthi@gmail.com</a></p>
-<p>This project is about the change in GDP of major countries from the years 2000 to 2022, which is graphed onto a line plot.</p>
+<p>This project is about the change in GDP of major countries from the years 1999 to 2022, which is graphed onto a series of plots.</p>
 <p>This project was created as a part of <a href="https://bootcamp.davidkane.info/">Kane’s Data Science Bootcamp</a>.</p>
 
 
@@ -222,7 +222,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/wyze\.quarto\.pub\/gdp-growth-from-2000-2022");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

@@ -12,7 +12,7 @@ library(tidyverse)
 ```
 
 ## Project Overview ##
-This project is about the dynamic concepts of economics, to chart the course of global GDP growth rates from the years 1999 to 2022. Because of RStudio, it is possible to  transform raw data into a narrative that reflects past economic trends, as well as help in forecasting future possibilities. The graph below is a visualizations which brings clarity to economics that may seem complex, making them accessible to anyone. The countries with the highest change in GDP over 23 years are China and the United States.
+This project is about the dynamic concepts of economics, to chart the course of global GDP growth rates from the years 1999 to 2022. Because of RStudio, it is possible to  transform raw data into a narrative that reflects past economic trends, as well as help in forecasting future possibilities. The graphs below are visualizations that bring clarity to economics that may seem complex, making them accessible to anyone. An observation that can be made is that the countries with the highest change in GDP over 23 years are China and the United States.
 
 ## Line Plot ##
 The first plot below is a line plot. To read this, you focus on, obviously, the lines. Each line shows the GDP growth of a different country. We can even read specific point of the lines to determine a country's GDP at a specified time.
@@ -45,7 +45,7 @@ ggplot(long_gdp_data, aes(x = Year, y = GDP, group = Country, color = Country)) 
 
 
 ## Bar Graphs ##
-A bar graph consists of "boxes" that are designed to display the value of a country. Below are two bar graphs that show the values of five different countries at different points of time. An advantage of this is that it is easier to read than the line plot. However, a disadvantage compared to the line plot is that we can only see the values of one specific year at a time, rather than all the years in our dataset.
+A bar graph consists of "boxes" that are designed to display the value of a country, but only for a specific year. Below are two bar graphs that show the values of five different countries at different points of time. An advantage of this is that it is easier to read than the line plot. However, this graph does come with some disadvantages. For one, if we look at the line plot, we can view GDP points for all the years in the dataset at once. Here, we can only see the values of one specific year at a time, rather than all the years in our dataset. Another drawback of the bar graph, as well as the line plot, is that we can only see a few select countries instead of all the countries in the dataset. What if I wanted to see the GDP of all the countries at once?
 ```{r}
 library(tidyverse)
 library(ggrepel)
@@ -86,7 +86,7 @@ ggplot() +
 
 
 ## Chloropleth ##
-Our final graphic is a chloropleth. A chloropleth is a thematic map that displays data on a map. In the examples below, we can see a different color represents a different range of GDP values. Here, we can view all the countries, instead of just a few. The only disadvantage however, is that, similar to the bar graphs, we can only see the data for one specific year, and not all the years.
+Our final graphic is a chloropleth. A chloropleth is a thematic map that displays data on a map. In the examples below, we can see a different color represents a different range of GDP values. Here, we can view all the countries, instead of just a few like in the line plots and bar graphs. The only disadvantage of the chloropleth map, is that, similar to the bar graphs, we can only see the data for one specific year, and not all the years. This can also be useful sometimes, if we want to look at only one year.
 ```{r}
 library(ggplot2)
 library(dplyr)
@@ -112,7 +112,7 @@ unmatched_countries <- gdp_1999 %>%
   filter(is.na(Country_standardized)) %>%
   select(Country)
 
-#Make sure there are no mishaps in names between both datasets
+#Make sure there are no mishaps in country names in both datasets
 gdp_1999 <- gdp_1999 %>%
   mutate(Country_standardized = case_when(
     Country == "United States" ~ "United States of America",
@@ -161,7 +161,7 @@ ggplot(data = world_gdp) +
 
 
 
-Here we see can see another Chloropleth map, but of the year 2022.
+Here we see can see another Chloropleth map, but for the year 2022.
 
 ```{r}
 #Second Map for the year 2022
@@ -237,5 +237,5 @@ ggplot(data = world_gdp) +
 ```
 
 ## Summary ##
-Each of the graphics above have many advantages and disadvantages. There are different uses for each one, because they all display data in a different format than other kinds of plots.
+Although each of the graphics above could have many advantages and disadvantages, there are different uses for each one, because they all display data in a different format than other kinds of plots. Because of this, we can analyze data in any kind of way we want to.
 
