@@ -121,6 +121,7 @@ gdp_1999 <- gdp_1999 %>%
     Country == "Central African Republic" ~ "Central African Rep.",
     Country == "Myanmar" ~ "Myanmar",
     Country == "Bosnia and Herzegovina" ~ "Bosnia and Herz.", 
+    Country == "Dominican Republic" ~ "Dominican Rep.",
     TRUE ~ Country_standardized
   ))
 
