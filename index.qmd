@@ -238,5 +238,5 @@ ggplot(data = world_gdp) +
 ```
 
 ## Summary ##
-Although each of the graphics above could have many advantages and disadvantages, there are different uses for each one, because they all display data in a different format than other kinds of plots. Because of this, we can analyze data in any kind of way we want to.
+Although each of the graphics above could have many advantages and disadvantages, there are different uses for each one, because they all display data in a different format than other kinds of plots. Because of this, we can analyze data in any kind of way we want to. Overall, we can see that only  
 

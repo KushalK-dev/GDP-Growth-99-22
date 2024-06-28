@@ -1,0 +1,10 @@
+---
+title: "sources"
+author: "Kushal K"
+---
+
+## Sources ##
+The data for the graphs were sourced from [https://www.kaggle.com/datasets/alejopaullier/-gdp-by-country-1999-2022](Kaggle.com), which got its data from the World Bank.
+
+
+
